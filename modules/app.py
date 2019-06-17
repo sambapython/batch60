@@ -24,8 +24,24 @@ y=sales.a
 import sales
 '''
 #import acc
+'''
 import sys
 sys.path.append("/home/khyaathipython/")
 print(sys.path)
 
 import acc
+'''
+'''
+import folder1
+'''
+'''
+from folder1 import file1, file2
+file1.fun()
+file2.fun()
+'''
+'''
+import folder1
+#fi=older1.file1.fun()
+'''
+#import pur
+import data
