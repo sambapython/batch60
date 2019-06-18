@@ -1,0 +1,4 @@
+{"database":"batch60",
+ "user":"postgres",
+ "password":"root",
+ "port":"5432"}
