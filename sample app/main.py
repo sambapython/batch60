@@ -1,4 +1,4 @@
-from dbop import insert, browse
+from dbop import insert, browse, update, delete
 while True:
 	opt = input("""
 	Customer operations:
@@ -15,4 +15,11 @@ while True:
 	elif opt=="4":
 		data = browse()
 		print(data)
+	elif opt=="2":
+		update()
+	elif opt=="3":
+		delete()
+	else:
+		print("wrong option....")
+
 
