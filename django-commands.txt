@@ -1,0 +1,5 @@
+#To install django--->pip install django
+#To create a project--> django-admin startproject crickinfo
+cd crickinfo
+#To run the server: python manage.py runserver
+# create an app: python manage.py startapp match
