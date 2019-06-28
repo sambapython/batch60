@@ -1,0 +1,27 @@
+INFO:root:program strted
+DEBUG:root:A value entered: 12
+DEBUG:root:B value entered: 6
+DEBUG:root:before conversion a=12,b=6
+DEBUG:root:a value converted: 12.0
+DEBUG:root:b value converted: 6.0
+DEBUG:root:after conversion a=12.0,b=6.0
+DEBUG:root:result: 2.0
+INFO:root:program completed.
+INFO:root:program strted
+DEBUG:root:A value entered: 12
+DEBUG:root:B value entered: 0
+DEBUG:root:before conversion a=12,b=0
+DEBUG:root:a value converted: 12.0
+DEBUG:root:b value converted: 0.0
+DEBUG:root:after conversion a=12.0,b=0.0
+ERROR:root:float division by zero
+INFO:root:program completed.
+2019-06-28 09:38:27,347==>root-->INFO-->program strted
+2019-06-28 09:38:29,268==>root-->DEBUG-->A value entered: 12
+2019-06-28 09:38:29,973==>root-->DEBUG-->B value entered: 0
+2019-06-28 09:38:29,973==>root-->DEBUG-->before conversion a=12,b=0
+2019-06-28 09:38:29,974==>root-->DEBUG-->a value converted: 12.0
+2019-06-28 09:38:29,974==>root-->DEBUG-->b value converted: 0.0
+2019-06-28 09:38:29,974==>root-->DEBUG-->after conversion a=12.0,b=0.0
+2019-06-28 09:38:29,974==>root-->ERROR-->float division by zero
+2019-06-28 09:38:29,974==>root-->INFO-->program completed.
